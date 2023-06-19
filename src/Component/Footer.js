@@ -1,5 +1,6 @@
 import {Typography} from 'antd';
 import React from 'react'
+import './foot.css'
 
 function Footer() {
   return (

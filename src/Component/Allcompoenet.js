@@ -6,7 +6,6 @@ import Sidebar from './Sidebar';
 import'../App.css'
 import { Space } from 'antd';
 
-
 function Allcompoenent() {
   return (
     <div className="App">

@@ -8,14 +8,12 @@ import Inventory from '../Pages/Inventory'
 function AppRoute() {
     return (
         <Routes>
+            <Route index element={<Dashboard />} />
             <Route path="/Dashboard" element={<Dashboard />} />
             <Route path="/Inventory" element={<Inventory />} />
             <Route path="/Order" element={<Orders />} />
             <Route path="/Customer" element={<Customer />} />
-           
         </Routes>
-      
-
     )
 }
 export default AppRoute
